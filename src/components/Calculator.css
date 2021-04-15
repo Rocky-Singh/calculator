@@ -1,0 +1,50 @@
+.board{
+    /* background-color: blanchedalmond; */
+    height: 500px;
+    width: 370px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #648cad;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    /* To center content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    /* pointer-events: none; */
+  }
+
+
+  .text-container{
+    width:330px;
+    padding: 20px;
+    background-color: #82abcc;
+    
+     /* To center content */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+  .text-container>div{
+    background-color:white;
+    width: 350px;
+    height:40px;
+    padding: 5px;
+    font-size: 30px;
+    text-align: end;
+  }
